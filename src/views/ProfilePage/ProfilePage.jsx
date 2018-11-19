@@ -71,15 +71,30 @@ class ProfilePage extends React.Component {
 										</div>
 										<div className={classes.name}>
 											<h3 className={classes.title}>Vincent Howard</h3>
-											<h6>FULL-STACK DEVELOPER</h6>
-											<Button justIcon link className={classes.margin5}>
-												<i className={'fab fa-twitter'} />
+											<h6>FULL STACK DEVELOPER</h6>
+											<Button
+												href="https://github.com/vinnyhoward"
+												justIcon
+												link
+												className={classes.margin5}
+											>
+												<i className={'fab fa-github'} />
 											</Button>
-											<Button justIcon link className={classes.margin5}>
+											<Button
+												href="https://www.linkedin.com/in/vinnyhoward/"
+												justIcon
+												link
+												className={classes.margin5}
+											>
+												<i className={'fab fa-linkedin'} />
+											</Button>
+											<Button
+												href="https://www.instagram.com/vinnyvader/"
+												justIcon
+												link
+												className={classes.margin5}
+											>
 												<i className={'fab fa-instagram'} />
-											</Button>
-											<Button justIcon link className={classes.margin5}>
-												<i className={'fab fa-facebook'} />
 											</Button>
 										</div>
 									</div>
@@ -88,10 +103,10 @@ class ProfilePage extends React.Component {
 							<div className={classes.description}>
 								<p>
 									I am a full-stack developer with a background in design (UI/UX, branding), with a
-									deep passion for the JavaScript and React Ecosystems. The fact that the web
-									development field keeps on changing and developing, it makes everyday different and
-									fun. So it goes well with my personality when it comes to self improvement, self
-									learning, the love to create content, and solving problems.
+									deep passion for the JavaScript and React Ecosystems. The web development field
+									keeps on changing and developing, which makes everyday different and fun. So it goes
+									well with my personality when it comes to self improvement, self learning, the love
+									to create content, and solving problems.
 								</p>
 							</div>
 							<GridContainer justify="center">
@@ -163,7 +178,7 @@ class ProfilePage extends React.Component {
 																<CardBody>
 																	<h4 className={classes.cardTitle}>Neureal ICO</h4>
 																	<p>
-																		designed, wrote, and maintained the code for a
+																		Designed, wrote, and maintained the code for a
 																		landing page for an AI blockchain ICO (Initial
 																		Coin Offering).
 																	</p>
