@@ -202,7 +202,7 @@ class ProfilePage extends React.Component {
 																		<a href="https://github.com/vinnyhoward/charity-react-solidity">
 																			<Button color="success">Github</Button>
 																		</a>
-																		<a href="https://app.netlify.com/sites/trusting-mahavira-8582f4">
+																		<a href="https://trusting-mahavira-8582f4.netlify.com">
 																			<Button color="success">Live Site</Button>
 																		</a>
 																	</CardBody>
